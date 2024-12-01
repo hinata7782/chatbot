@@ -48,3 +48,5 @@
 ![システム構成](https://github.com/user-attachments/assets/a5518c83-56cf-4a4d-b996-540691d57877)
 
 # デモ
+PowerPointでけっこう強引に作成したので、バグって見えます。気にしないでもらえるとありがたいです。
+![chatbot](https://github.com/user-attachments/assets/5e9a4548-dc43-4eac-b59b-cf050e4939fa)
