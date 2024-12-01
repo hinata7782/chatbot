@@ -1,0 +1,70 @@
+.home{
+    background-color: rgb(255, 239, 212);
+    padding: 10px;
+    font-family: var(--font-primary, YuGothic, "Yu Gothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN",sans-serif);
+}
+
+.hometitle{
+    font-size: 55px;
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(70, 44, 15);
+}
+
+.hometirle-sub{
+    color: rgb(251, 159, 149);
+}
+
+.chatbot1{
+    color: rgb(70, 44, 15);
+    font-size: 20px;
+    padding: 50px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatbot1-name{
+    padding: 60px;
+    text-align: center;
+}
+
+.joshi-logo{
+    width: 150px;
+    height: 120px;
+}
+
+.chatbot1-but{
+    margin-left: 100px;
+}
+
+.qestion{
+    color: rgb(70, 44, 15);
+    font-size: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 260px;
+}
+
+.qestion-text{
+    margin-right: 50px;
+}
+.qestion-but{
+    display: block;
+	text-decoration: none;
+	width: 120px;
+	padding: 1rem 2rem;
+	font-weight: bold;
+	border: 2px solid rgb(70, 44, 15);
+	color: rgb(70, 44, 15);
+	border-radius: 100vh;
+	transition: 0.5s;
+}
+
+.qestion-but:hover{
+    background: rgb(70, 44, 15);
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,36 @@
+.header2{
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.header2-button{
+    color: rgb(70, 44, 15);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border:  1px solid rgb(70, 44, 15);
+    background: rgb(255, 239, 212);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 239, 212)), to(rgb(255, 239, 212)));
+    background: -webkit-linear-gradient(top, rgb(255, 239, 212) 0%, rgb(255, 239, 212) 100%);
+    background: linear-gradient(to bottom, rgb(255, 239, 212) 0%, rgb(255, 239, 212) 100%);
+    -webkit-box-shadow: insent 1px 1px 1px #fff;
+    box-shadow: insent 1px 1px 1px #fff;
+}
+
+.header1-button:hover{
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(251, 231, 196)), to(rgb(251, 231, 196)));
+    background: -webkit-linear-gradient(bottom, rgb(251, 231, 196) 0%, rgb(251, 231, 196) 100%);
+    background: linear-gradient(to top, rgb(251, 231, 196) 0%, rgb(251, 231, 196) 100%);
+}
+
+.Page2{
+    font-family: var(--font-primary, YuGothic, "Yu Gothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN",sans-serif);
+    border: solid rgb(251, 159, 149) 2px;
+}
+
+.Page2 td, 
+.Page2 th {
+  text-align: center; /* 横方向の中央揃え */
+  vertical-align: middle; /* 縦方向の中央揃え */
+}
+

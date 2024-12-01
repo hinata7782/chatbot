@@ -1,0 +1,109 @@
+.Page1{
+    font-family: var(--font-primary, YuGothic, "Yu Gothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN",sans-serif);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+    width: 70%;
+    border: solid rgb(250, 232, 201) 3px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.header1{
+    display: flex;
+    background-color: rgb(255, 239, 212);
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header1-button{
+    color: rgb(70, 44, 15);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border:  1px solid rgb(70, 44, 15);
+    background: rgb(255, 239, 212);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 239, 212)), to(rgb(255, 239, 212)));
+    background: -webkit-linear-gradient(top, rgb(255, 239, 212) 0%, rgb(255, 239, 212) 100%);
+    background: linear-gradient(to bottom, rgb(255, 239, 212) 0%, rgb(255, 239, 212) 100%);
+    -webkit-box-shadow: insent 1px 1px 1px #fff;
+    box-shadow: insent 1px 1px 1px #fff;
+}
+
+.header1-button:hover{
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(251, 231, 196)), to(rgb(251, 231, 196)));
+    background: -webkit-linear-gradient(bottom, rgb(251, 231, 196) 0%, rgb(251, 231, 196) 100%);
+    background: linear-gradient(to top, rgb(251, 231, 196) 0%, rgb(251, 231, 196) 100%);
+}
+
+.header1-p{
+    color: rgb(70, 44, 15);
+}
+
+.message-list1{
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.message-1{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.message-page1{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+}
+
+.message-page1.user{
+    align-self: flex-end;
+    background-color: rgb(70, 44, 15);
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    border: 1px solid rgb(204, 201, 198);
+}
+
+.message-page1.assistant{
+    align-self: flex-start;
+    background-color: rgb(255, 239, 212);
+    color: rgb(70, 44, 15);
+    border: 1px solid rgb(251, 159, 149);
+}
+
+.message-img1{
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.input-container1{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.input-field1{
+    flex: 1;
+    margin-right: 10px;
+}
+
+.input-field1 .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: rgb(70, 44, 15); 
+}
+
+.input-field1 .Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: rgb(70, 44, 15); 
+}
+
+.send-button1{
+    color: rgb(70, 44, 15) !important;
+    background-color: rgb(255, 239, 212) !important;
+    border: 1px solid rgb(70, 44, 15) !important;
+}
