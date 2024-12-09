@@ -49,5 +49,5 @@
 
 # デモ
 作成した自作チャットボットです。
-PowerPointでけっこう強引に作成したので、バグって見えます。気にしないでもらえるとありがたいです。
+PowerPointでけっこう強引に作成したので、バグって見えます。
 ![chatbot](https://github.com/user-attachments/assets/5e9a4548-dc43-4eac-b59b-cf050e4939fa)
